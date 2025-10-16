@@ -71,6 +71,7 @@ nnoremap <Leader>p :set paste!<CR>
 " ========== "Extras" ========== "
 
 autocmd FileType * set formatoptions-=cro
+autocmd BufNewFile,BufRead *.sv set filetype=systemverilog
 autocmd BufNewFile,BufRead *.v,*.sv,*.vs set syntax=verilog
 
 " ========== "Verilog Comments" ========== "
